@@ -1,0 +1,103 @@
+h1 {
+    color: #FF5607;
+    font-family: Economica, sans-serif;
+  }
+  
+  h3 {
+    color: #FF5607;
+    font-family: Economica, sans-serif;
+  }
+  
+  h5 {
+    color: #FF5607;
+    font-family: Economica, sans-serif;
+  }
+  
+  p {
+    margin: 0px;
+    font-family: Economica, sans-serif;
+    font-size: 20px;
+    color: rgb(77, 76, 76);
+  }
+  
+  .navLink {
+    color: darkgray;
+  }
+  
+  .border-high {
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-width: 4px;
+    border-color: #FF5607;
+  }
+  
+  .border-low {
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-width: 3px;
+    border-color: #FF5607;
+  }
+  
+  .h1Border {
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-width: 2px;
+    border-color: darkgray;
+  }
+  
+  .mainImage {
+    margin: 0px;
+    height: 25%;
+    width: 25%;
+    float: left;
+  }
+  
+  .portImage {
+    padding: 10px;
+  }
+  
+  .text-sm {
+    font-family: Economica, sans-serif;
+    font-size: medium;
+    color:#FF5607;
+  }
+  
+  .connectLabel {
+    color: dimgray;
+    text-emphasis: active;
+  }
+  
+  .containerMain {
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:hover.text-sm {
+    color: darkgray;
+    text-decoration: none;
+  }
+  
+  .btn {
+    color: white;
+    font-family: Economica, sans-serif;
+    background-color: #FF5607;
+    margin-top: 1em;
+  }
+  
+  .form-group {
+    font-family: Economica, sans-serif;
+  }
+  
+  .nav {
+    background-color: #FF5607;
+  }
