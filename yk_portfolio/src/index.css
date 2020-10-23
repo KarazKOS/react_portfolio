@@ -27,8 +27,16 @@ p {
   color: rgb(77, 76, 76);
 }
 
-.navLink {
+.nav-link {
   color: darkgray;
+}
+
+.nav-btn {
+  color: #FF5607;
+}
+
+.text-info1 {
+  color: #FF5607;
 }
 
 .border-high {
@@ -68,6 +76,12 @@ p {
 
 .portImage {
   padding: 10px;
+}
+
+a {
+  font-family: BenchNine, sans-serif;
+  font-size: medium;
+  color:#FF5607;
 }
 
 .text-sm {

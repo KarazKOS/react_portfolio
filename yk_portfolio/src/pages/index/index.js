@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Home() {
     return (
         
@@ -14,7 +15,7 @@ function Home() {
           {/* <!-- Start of Main Image --> */}
           <div className="col-lg-12 px-0">
             <img
-              src="Assets/Images/YK_pic.jpg"
+              src=""
               className="pull-left mainImage pt-4 pl-0 pb-3 pr-3"
               alt="Photo of Yulin Karaiscos"
             />

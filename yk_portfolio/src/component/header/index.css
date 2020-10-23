@@ -61,6 +61,16 @@ h1 {
   .portImage {
     padding: 10px;
   }
+
+  a {
+    font-family: BenchNine, sans-serif;
+    font-size: medium;
+    color:#FF5607;
+  }
+
+  .text-info {
+    color: #FF5607;
+  }
   
   .text-sm {
     font-family: Economica, sans-serif;

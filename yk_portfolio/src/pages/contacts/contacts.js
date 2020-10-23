@@ -6,7 +6,7 @@ function Contacts() {
 <div className="container">
 			<div className="row">
 				<div className="col-sm-8 mb-4 mt-2">
-					<p className="h3 text-info">contact</p>
+					<h3 className="h3">Connect with me</h3>
 				</div>
 			</div>
 			<input className="form-control" type="text" placeholder="Name" />

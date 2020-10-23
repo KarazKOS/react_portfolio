@@ -14,7 +14,7 @@ return (
         <div className="container">
       <div className="row">
         <div className="col-sm-7 col mb-2 mt-2">
-          <p className="h3 text-info">Portfolio</p>
+          <h3 className="">Portfolio</h3>
         </div>
       </div>
     </div>
@@ -47,13 +47,23 @@ return (
           
         </div>
       </div>
+      <div className="col-sm-4 col-md-6 col-lg-4">
+        <BasicCard 
+        Image={eat}
+        CardTitle="Eat-Da_burger"
+        HREF="https://stark-beach-02156.herokuapp.com/"
+        buttonText1="Eat-Da_burger"
+        HREF2="https://github.com/imartinez0753/burgerLogger"
+        buttonText2="github"
+        />
+        </div>
     </div>
    
-    <div className="container">
+    {/* <div className="container">
       <div className="row">
         <div className="col-sm-7 col mb-2 mt-2"></div>
       </div>
-    </div>
+    </div> */}
 
   
     <div className="container">
@@ -78,6 +88,17 @@ return (
         HREF="https://stark-beach-02156.herokuapp.com/"
         buttonText1="Eat-Da_burger"
         HREF2="https://github.com/imartinez0753/burgerLogger"
+        buttonText2="github"
+        />
+        </div>
+
+        <div className="col-sm-4 col-md-6 col-lg-4">
+        <BasicCard 
+        Image={eat}
+        CardTitle="Eat-Da_burger"
+        HREF="https://stark-beach-02156.herokuapp.com/"
+        buttonText1="Eat-Da_burger"
+        HREF2="https://github.com/Darling-bee/Project-1-UCR-Extension"
         buttonText2="github"
         />
         </div>

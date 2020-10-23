@@ -3,31 +3,31 @@ import React from "react";
 function footer() {
     return (
         <div>
-          <div class="footer col-lg-12 border-high text-left pl-5 py-4 nav-main">
-      <p class="text-sm">©2020 YULIN KARAISCOS</p>
-      <a class="text-sm" href="mailto:ykaraiscos@yahoo.com"
+          <div className="footer col-lg-12 border-high text-left pl-5 py-4 nav-main">
+      <p className="text-sm">©2020 YULIN KARAISCOS</p>
+      <a className="text-sm" href="mailto:ykaraiscos@yahoo.com"
         >ykaraiscos@yahoo.com</a
       >
       <br />
       <a
-        class="text-sm border-dark border-right"
+        className="text-sm border-dark border-right"
         href="https://www.linkedin.com/in/yulinkaraiscos/"
         >LinkedIN |</a
       >
       <a
-        class="text-sm border-dark border-right"
+        className="text-sm border-dark border-right"
         href="https://github.com/KarazKOS"
         >GitHub |</a
       >
       <a
-        class="text-sm border-dark border-right"
+        className="text-sm border-dark border-right"
         href="https://www.behance.net/yulinkaraiscos"
         >Behance |</a
       >
-      <a class="text-sm" href="https://www.instagram.com/reaktioncreative/"
+      <a className="text-sm" href="https://www.instagram.com/reaktioncreative/"
         >Instagram |</a
       >
-      <a class="text-sm border-dark border-right" href="./Assets/docs/Yulin Karaiscos Resume.pdf"
+      <a className="text-sm border-dark border-right" href="./Assets/docs/Yulin Karaiscos Resume.pdf"
       > Resume</a
     >
     </div>
