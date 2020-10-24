@@ -22,14 +22,14 @@ return (
    
     <div className="container">
       <div className="row my-3">
-        <div className="col-sm-4 col-md-6 col-lg-4">
+        <div className="col-sm-4 col-md-6 col-lg-4 card-title-font">
         <BasicCard 
         Image={weather}
-        CardTitle="weather App"
-        HREF="https://imartinez0753.github.io/weatherDashboard/"
-        buttonText1="weather App"
-        HREF2="https://github.com/imartinez0753/weatherDashboard"
-        buttonText2="gitHub"
+        CardTitle="Project 3: The Alcocall App"
+        HREF="https://alcocall.herokuapp.com/dashboard"
+        buttonText1="Vist Site"
+        HREF2="https://github.com/amaliawhay/alcocall"
+        buttonText2="Review Code"
         />
         
          
@@ -38,33 +38,27 @@ return (
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
         Image={dayPlanner}
-        CardTitle="Day Planner"
-        HREF="https://imartinez0753.github.io/dayPlanner/"
-        buttonText1=" Day Planner"
-        HREF2="https://github.com/imartinez0753/dayPlanner"
-        buttonText2="gitHub"
+        CardTitle="Project 2: The Alcocall App"
+        HREF="https://fathomless-cove-53726.herokuapp.com/"
+        buttonText1=" Visit Site"
+        HREF2="https://github.com/imartinez0753/alcoCall"
+        buttonText2="See Code"
         />
           
         </div>
-      </div>
+      
       <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
         Image={eat}
-        CardTitle="Eat-Da_burger"
-        HREF="https://stark-beach-02156.herokuapp.com/"
-        buttonText1="Eat-Da_burger"
-        HREF2="https://github.com/imartinez0753/burgerLogger"
-        buttonText2="github"
+        CardTitle="Project 1: The Alcocall App"
+        HREF="https://darling-bee.github.io/Project-1-UCR-Extension/"
+        buttonText1="Visit Site"
+        HREF2="https://github.com/Darling-bee/Project-1-UCR-Extension"
+        buttonText2="Review Code"
         />
         </div>
+        </div>
     </div>
-   
-    {/* <div className="container">
-      <div className="row">
-        <div className="col-sm-7 col mb-2 mt-2"></div>
-      </div>
-    </div> */}
-
   
     <div className="container">
       <div className="row my-3">
@@ -73,38 +67,39 @@ return (
           
         <BasicCard 
         Image={alcoCall}
-        CardTitle="Alcocall"
-        HREF="https://fathomless-cove-53726.herokuapp.com/"
-        buttonText1=" Alcocall"
-        HREF2="https://github.com/imartinez0753/alcoCall"
-        buttonText2="gitHub"
+        CardTitle="Weather Dashboard"
+        HREF="https://karazkos.github.io/weather_dashboard/"
+        buttonText1="Visit Site"
+        HREF2="https://github.com/KarazKOS/weather_dashboard"
+        buttonText2="Review Code"
         />
         </div>
        
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
         Image={eat}
-        CardTitle="Eat-Da_burger"
-        HREF="https://stark-beach-02156.herokuapp.com/"
-        buttonText1="Eat-Da_burger"
-        HREF2="https://github.com/imartinez0753/burgerLogger"
-        buttonText2="github"
+        CardTitle="Note Taker"
+        HREF=" https://note-taker-yk.herokuapp.com/"
+        buttonText1="Visit Site"
+        HREF2="https://github.com/KarazKOS/note_taker"
+        buttonText2="Review Code"
         />
         </div>
 
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
         Image={eat}
-        CardTitle="Eat-Da_burger"
-        HREF="https://stark-beach-02156.herokuapp.com/"
-        buttonText1="Eat-Da_burger"
-        HREF2="https://github.com/Darling-bee/Project-1-UCR-Extension"
-        buttonText2="github"
+        CardTitle="Workday Scheduler"
+        HREF="https://karazkos.github.io/workday_scheduler/"
+        buttonText1="Visit Site"
+        HREF2="https://github.com/KarazKOS/workday_scheduler"
+        buttonText2="Review Code"
         />
         </div>
       </div>
     </div>
     </div>
+
 </div>
     
 )
