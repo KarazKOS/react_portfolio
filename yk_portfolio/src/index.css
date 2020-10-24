@@ -127,3 +127,9 @@ a:hover.text-sm {
 .nav {
   background-color: rgb(41, 41, 41);
 }
+
+.card-title-font {
+  font-family: BenchNine, sans-serif;
+  font-size: 34px;
+  color:#FF5607;
+}
