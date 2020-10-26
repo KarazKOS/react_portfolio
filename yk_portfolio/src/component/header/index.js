@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Card, Button } from "react-bootstrap";
 
 function BasicCard({Image, CardTitle, HREF, HREF2, buttonText2, buttonText1}) {
     return (
       <div className="border-low main-nav">
       <nav className="btn navbar navbar-expand-lg navbar-light">
+      <Link className="navbar-brand hover" to="/">
+          <h3>YULIN KARAISCOS</h3>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

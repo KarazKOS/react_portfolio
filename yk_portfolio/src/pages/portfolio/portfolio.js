@@ -1,9 +1,11 @@
 import React from "react";
 import BasicCard from "../../component/card";
-import eat from "../../Images/eat-da-burger.png"
+import note from "../../Images/note_taker.png"
 import alcoCall from "../../Images/alcoCallV3.png"
-import dayPlanner from "../../Images/dayPlanner.png"
+import alcocall2 from "../../Images/alcoCallV3.png"
+import alcocall3 from "../../Images/alcoCallV3.png"
 import weather from "../../Images/weatherApp.png"
+import workDay from "../../Images/dayPlanner.png"
 
 
 
@@ -24,7 +26,7 @@ return (
       <div className="row my-3">
         <div className="col-sm-4 col-md-6 col-lg-4 card-title-font">
         <BasicCard 
-        Image={weather}
+        Image={alcocall3}
         CardTitle="Project 3: The Alcocall App"
         HREF="https://alcocall.herokuapp.com/dashboard"
         buttonText1="Vist Site"
@@ -37,19 +39,19 @@ return (
         
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image={dayPlanner}
+        Image={alcocall2}
         CardTitle="Project 2: The Alcocall App"
         HREF="https://fathomless-cove-53726.herokuapp.com/"
         buttonText1=" Visit Site"
         HREF2="https://github.com/imartinez0753/alcoCall"
-        buttonText2="See Code"
+        buttonText2="Review Code"
         />
           
         </div>
       
       <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image={eat}
+        Image={alcoCall}
         CardTitle="Project 1: The Alcocall App"
         HREF="https://darling-bee.github.io/Project-1-UCR-Extension/"
         buttonText1="Visit Site"
@@ -66,7 +68,7 @@ return (
         
           
         <BasicCard 
-        Image={alcoCall}
+        Image={weather}
         CardTitle="Weather Dashboard"
         HREF="https://karazkos.github.io/weather_dashboard/"
         buttonText1="Visit Site"
@@ -77,7 +79,7 @@ return (
        
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image={eat}
+        Image={note}
         CardTitle="Note Taker"
         HREF=" https://note-taker-yk.herokuapp.com/"
         buttonText1="Visit Site"
@@ -88,7 +90,7 @@ return (
 
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image={eat}
+        Image={workDay}
         CardTitle="Workday Scheduler"
         HREF="https://karazkos.github.io/workday_scheduler/"
         buttonText1="Visit Site"

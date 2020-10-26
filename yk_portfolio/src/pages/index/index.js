@@ -1,4 +1,5 @@
 import React from "react";
+import bioPic from "../../Images/YK_pic.jpg"
 
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
           {/* <!-- Start of Main Image --> */}
           <div className="col-lg-12 px-0">
             <img
-              src=""
+              src={bioPic}
               className="pull-left mainImage pt-4 pl-0 pb-3 pr-3"
               alt="Photo of Yulin Karaiscos"
             />
