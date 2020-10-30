@@ -5,12 +5,12 @@ import bioPic from "../../Images/YK_pic.jpg"
 function Home() {
     return (
         
-      <div className="container-fluid row px-0 mx-0">
+      <div className="container">
         <div
-          className="col-lg-8 col-md-10 col-xs-12 m-5 py-2 px-4 bg-light border border-secondary rounded-lg"
+          className="card py-4 px-4 m-5"
         >
           {/* <!-- Start Page Title --> */}
-          <h1 className="h1Border m-0 py-3">My Story</h1>
+          <h3 className="h1Border m-0 py-2">My Story</h3>
           {/* <!-- End Page Title --> */}
 
           {/* <!-- Start of Main Image --> */}

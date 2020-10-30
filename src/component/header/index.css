@@ -21,8 +21,12 @@ h1 {
     color: rgb(77, 76, 76);
   }
   
-  .navLink {
-    color: darkgray;
+  .nav-link {
+    color: #FF5607;
+  }
+
+  .nav-item {
+    color: #FF5607 
   }
   
   .border-high {

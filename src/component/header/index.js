@@ -23,7 +23,7 @@ function BasicCard({Image, CardTitle, HREF, HREF2, buttonText2, buttonText1}) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link text-info1" href="/"
+              <a className="nav-link text-info" href="/"
                 >About <span className="sr-only">(current)</span></a
               >
             </li>

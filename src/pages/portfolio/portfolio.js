@@ -11,15 +11,15 @@ import workDay from "../../Images/dayPlanner.png"
 
 function Portfolio() {
 return (
-<div>
-    <div>
-        <div className="container">
-      <div className="row">
-        <div className="col-sm-7 col mb-2 mt-2">
-          <h3 className="">Portfolio</h3>
+<div className="container">
+    <div className="card py-4 px-4 m-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-7 col mb-2 mt-2">
+            <h3 className="">Portfolio</h3>
+          </div>
         </div>
       </div>
-    </div>
 
    
     <div className="container">
@@ -100,7 +100,7 @@ return (
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
 </div>
     

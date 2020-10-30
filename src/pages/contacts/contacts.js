@@ -26,7 +26,8 @@ function Contacts() {
 			<section className="row-lg-12 py-4 px-4">
             <div className="card w-100%">
               <div className="card-body">
-                <h5 className="card-title">Contact Information</h5>
+               <h3 className="">Connect with Me</h3>
+                {/* <h5 className="card-title">Contact Information</h5> */}
                 <p className="card-text">Yulin Karaiscos</p>
                 <p className="card-text">Phone: 909.210.2814</p>
                 <p className="card-text">Email: yulin@reaktioncreative.com</p>
@@ -37,7 +38,7 @@ function Contacts() {
             </div>
             <div className="card w-100% mt-3">
               <div className="card-body">
-                <h5 className="card-title">Message Me</h5>
+              <h3 className="">Message Me</h3>
                 <form>
                   <div className="form-group connectLabel mt-3">
                     <label for="formGroupExampleInput">Full Name</label>
