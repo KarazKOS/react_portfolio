@@ -4,10 +4,10 @@ import App from "./App";
 import '../src/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter, HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <App />
-  </Router>
+  </HashRouter>
   , document.getElementById("root"));
